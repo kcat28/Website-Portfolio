@@ -1,0 +1,250 @@
+body{
+    font-family: Jaldi;
+    margin: 0;
+    background-color: #1A202C;
+}
+header{
+    background-color: #1A202C;
+    color: white;
+    padding: 25px;
+    overflow: hidden;
+}
+
+.topIcons{
+    float: right;
+}
+.topIcons a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+header .topIcons a:hover{
+   color: #47BC78
+}
+
+#catIcon{
+    height: 40px;
+}
+
+
+.intro{
+    color: white;
+    background-color: #2E3748;
+    padding: 60px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: left;
+    margin: 0 auto;
+    flex-shrink: 0;
+}
+
+#compsci{
+    margin-left: 70px;
+    white-space: nowrap; /* Prevent the text from wrapping onto multiple lines */
+}
+
+.intro img{
+    float: right;
+    height: 200px;
+    margin-left: 60px;
+    flex-shrink: 0; /*Prevent the image from shrinking */
+    border: 1px solid #47BC78;
+    border-radius: 5px;
+}
+
+.introtxt{
+    font-size: 40px;
+    line-height: 0.2;
+}
+
+
+#devtxt1 {
+    color: #CB3638;
+}
+
+#devtxt2 {
+    color: #108BC7;
+}
+
+#devtxt1, #devtxt2 {
+    font-size: 20px;
+    margin-left: 3px
+}
+
+#JD {
+    display: flex;
+    justify-content: flex-end; /* Align items to the end (right side) */
+    font-size: 20px;
+}
+
+.Skills{
+    color: white;
+    font-size: 25px;
+    justify-content: center;
+}
+
+.Skills #Frontendtxt, .Skills #Backendtxt, .Skills #Apapertxt {
+    display: block;
+    float: left;
+    font-size: 22px;
+    padding: 10px;
+    width: 20%;
+    margin-left: 10px;
+}
+
+#BE,#FE, #AP{
+    font-size: 40px;
+    margin: 0;
+}
+
+
+#skillstab{
+    background-color: #47BC78;
+    color: #2E3748;
+    font-size: 40px;
+    padding-left: 60px;
+    width: 60%; /* Limit width to 80% of the container */
+    margin-left: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#skillcontent{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.techstack{
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.techstack img {
+    height: 120px; /* Maintain aspect ratio */
+    margin: 10px; /* Adjust margin between images */
+}
+
+.About {
+    background-color: #2E3748;
+    color: white;
+    font-size: 22px;
+    padding: 60px;
+    width: 100%; 
+    margin: 0 auto; /* This centers the block horizontally */
+    text-align: justify; 
+    box-sizing: border-box; /* Include padding and border in width calculation */
+  
+}
+
+.About #aboutitle {
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+
+.About .text{
+    flex-wrap: wrap;
+}
+
+#projecttab{
+    background-color: #47BC78;
+    color: #2E3748;
+    font-size: 40px;
+    padding-left: 60px;
+    width: 60%; /* Limit width to 80% of the container */
+    margin-left: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+footer{
+    padding: 20px;
+    display: flex;
+    background-color: #47BC78;
+    justify-content: center;
+}
+
+footer img{
+    margin: 10px; 
+}
+
+footer a img:hover {
+    opacity: 0.7; 
+}
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .intro {
+        padding: 30px; /* Adjust padding for smaller screens */
+    }
+
+    #compsci {
+        margin-left: 10px; /* Reduce margin for smaller screens */
+    }
+
+    .intro img {
+        height: 120px; /* Adjust image height for smaller screens */
+        margin-left: 20px; /* Adjust margin for smaller screens */
+        
+    }
+
+    .introtxt {
+        font-size: 30px; /* Adjust font size for smaller screens */
+    }
+
+    #JD {
+        font-size: 16px; /* Adjust font size for smaller screens */
+        margin-right: 30px; /* Adjust margin for smaller screens */
+    }
+
+    #skillstab{
+        background-color: #47BC78;
+        font-size: 30px;
+        padding-left: 60px;
+        width: 60%; /* Limit width to 80% of the container */
+        margin-left: 0px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .Skills #Frontendtxt,
+    .Skills #Backendtxt,
+    .Skills #Apapertxt {
+        width: 80%; /* Adjust width for smaller screens */
+        margin: 10px auto; /* Center align with auto margins */
+        text-align: center; /* Center align text */
+        font-size: 20px;
+    }
+    #BE,#FE, #AP{
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .techstack img {
+        height: 80px; /* Maintain aspect ratio */
+        margin: 10px; /* Adjust margin between images */
+    }
+
+    
+.About #aboutitle {
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+
+.About .text{
+    font-size: 20px;
+    margin-bottom: 70px;
+    flex-wrap: wrap;
+}
+
+    
+}
