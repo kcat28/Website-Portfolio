@@ -184,25 +184,32 @@ footer a img:hover {
 @media (max-width: 768px) {
     .intro {
         padding: 30px; /* Adjust padding for smaller screens */
+        
     }
 
     #compsci {
         margin-left: 10px; /* Reduce margin for smaller screens */
+        font-size: 20px;
     }
 
     .intro img {
-        height: 120px; /* Adjust image height for smaller screens */
+        display: block;
+        height: auto; /* Adjust image height for smaller screens */
         margin-left: 20px; /* Adjust margin for smaller screens */
         
     }
 
     .introtxt {
-        font-size: 30px; /* Adjust font size for smaller screens */
+        font-size: 20px; /* Adjust font size for smaller screens */
     }
 
     #JD {
-        font-size: 16px; /* Adjust font size for smaller screens */
         margin-right: 30px; /* Adjust margin for smaller screens */
+    }
+
+    #devtxt1, #devtxt2 {
+        font-size: 16px;
+        margin-left: 3px
     }
 
     #skillstab{
@@ -246,5 +253,21 @@ footer a img:hover {
     flex-wrap: wrap;
 }
 
+#projecttab{
+    background-color: #47BC78;
+        font-size: 30px;
+        padding-left: 60px;
+        width: 60%; /* Limit width to 80% of the container */
+        margin-left: 0px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+}
+
+footer{
+    padding: 20px;
+    display: flex;
+    background-color: #47BC78;
+    justify-content: center;
+}
     
 }
