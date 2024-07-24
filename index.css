@@ -130,24 +130,18 @@ header .topIcons a:hover{
     background-color: #2E3748;
     color: white;
     font-size: 22px;
-    padding: 60px;
-    padding-top: 1px;
-    width: 100%; 
-    margin: 0 auto; 
-    text-align: justify; 
-    box-sizing: border-box; 
-  
+    text-align: justify;
+}
+
+.About article{
+    padding-top: 20px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 140px;
 }
 
 .About #aboutitle {
     text-align: center;
-    font-size: 38px;
-    margin-bottom: 0px;
-}
-
-
-.About .text{
-    flex-wrap: wrap;
 }
 
 #projecttab{
@@ -275,23 +269,20 @@ footer a img:hover {
     }
 
     
-.About #aboutitle{
-    font-size: 25px;
-    margin-bottom: 0px;
-    text-align: center;
-}
-.About, #title{
-    font-size: 18px;
-    text-align: center;
-}
-
-
-.About .text{
-    font-size: 18px;
-    margin-bottom: 70px;
-    text-align: center;
-    flex-wrap: wrap;
-}
+    .About {
+        background-color: #2E3748;
+        color: white;
+        font-size: 18px;
+    }
+    
+    .About article{
+        padding: 30px;
+    }
+    
+    .About #aboutitle {
+        text-align: center;
+        font-size: 25px;
+    }
 
 #projecttab{
         font-size: 22px;
