@@ -183,6 +183,7 @@ header .topIcons a:hover{
     padding: 10px 20px; /* Adjust padding as needed */
     font-size: 16px; 
     cursor: pointer; 
+    font-weight: bold;
 }
 .systemProject a{
     text-decoration: none;
@@ -292,9 +293,7 @@ footer a img:hover {
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
 }
-.Projects #projecttitle{
-    margin-left: 20px;
-  }
+
   .Projects h3{
       text-align: center;
       margin-top: 20px; /* Add some top margin for spacing */
@@ -311,7 +310,6 @@ footer a img:hover {
      
   }
   .systemProject button{
-    display: block;
     margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
@@ -320,9 +318,16 @@ footer a img:hover {
       border: #47BC78;
       text-decoration: none; 
       padding: 10px 20px; /* Adjust padding as needed */
-      font-size: 13px; 
-      
+      font-size: 14px;
+      font-weight: bold;
   }
+
+  .buttonlink {
+    text-align: center;
+   
+}
+
+
 
 footer{
     padding: 0px;
