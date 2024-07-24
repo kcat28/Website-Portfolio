@@ -16,7 +16,7 @@ header{
 .topIcons a{
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 header .topIcons a:hover{
@@ -24,14 +24,14 @@ header .topIcons a:hover{
 }
 
 #catIcon{
-    height: 40px;
+    height: 38px;
 }
 
 
 .intro{
     color: white;
     background-color: #2E3748;
-    padding: 60px;
+    padding: 58px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -42,21 +42,21 @@ header .topIcons a:hover{
 }
 
 #compsci{
-    margin-left: 70px;
+    margin-left: 68px;
     white-space: nowrap; /* Prevent the text from wrapping onto multiple lines */
 }
 
 .intro img{
     float: right;
     height: 200px;
-    margin-left: 60px;
+    margin-left: 58px;
     flex-shrink: 0; /*Prevent the image from shrinking */
     border: 1px solid #47BC78;
     border-radius: 5px;
 }
 
 .introtxt{
-    font-size: 40px;
+    font-size: 38px;
     line-height: 0.2;
 }
 
@@ -76,17 +76,12 @@ header .topIcons a:hover{
 
 #JD {
     display: flex;
-    justify-content: flex-end; /* Align items to the end (right side) */
-    font-size: 20px;
-}
-
-.Skills{
-    color: white;
-    font-size: 25px;
-    justify-content: center;
+    justify-content: flex-end; 
 }
 
 .Skills #Frontendtxt, .Skills #Backendtxt, .Skills #Apapertxt {
+    text-align: center;
+    color: white;
     display: block;
     float: left;
     font-size: 22px;
@@ -96,7 +91,8 @@ header .topIcons a:hover{
 }
 
 #BE,#FE, #AP{
-    font-size: 40px;
+    text-align: center;
+    font-size: 38px;
     margin: 0;
 }
 
@@ -104,9 +100,9 @@ header .topIcons a:hover{
 #skillstab{
     background-color: #47BC78;
     color: #2E3748;
-    font-size: 40px;
+    font-size: 33px;
     padding-left: 60px;
-    width: 60%; /* Limit width to 80% of the container */
+    width: 60%; 
     margin-left: 0px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -126,8 +122,8 @@ header .topIcons a:hover{
 }
 
 .techstack img {
-    height: 120px; /* Maintain aspect ratio */
-    margin: 10px; /* Adjust margin between images */
+    height: 120px; 
+    margin: 10px; 
 }
 
 .About {
@@ -135,15 +131,17 @@ header .topIcons a:hover{
     color: white;
     font-size: 22px;
     padding: 60px;
+    padding-top: 1px;
     width: 100%; 
-    margin: 0 auto; /* This centers the block horizontally */
+    margin: 0 auto; 
     text-align: justify; 
-    box-sizing: border-box; /* Include padding and border in width calculation */
+    box-sizing: border-box; 
   
 }
 
 .About #aboutitle {
-    font-size: 40px;
+    text-align: center;
+    font-size: 38px;
     margin-bottom: 0px;
 }
 
@@ -155,12 +153,48 @@ header .topIcons a:hover{
 #projecttab{
     background-color: #47BC78;
     color: #2E3748;
-    font-size: 40px;
+    font-size: 33px;
     padding-left: 60px;
     width: 60%; /* Limit width to 80% of the container */
     margin-left: 0px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+
+.Projects #projecttitle{
+  margin-left: 50px;
+}
+.Projects h3{
+    text-align: center;
+}
+
+.Projects{
+    color:white;
+    font-size: 22px;
+    text-align:justify;
+}
+
+.systemProject{
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 140px;
+   
+}
+.systemProject button{
+    margin-top: 20px;
+    background-color: #47BC78;
+    color: #1A202C;
+    border-radius: 10px;
+    border: #47BC78;
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 16px; 
+    cursor: pointer; 
+}
+.systemProject a{
+    text-decoration: none;
+}
+.systemProject button:hover{
+    opacity: 80%;
 }
 
 
@@ -176,7 +210,7 @@ footer img{
 }
 
 footer a img:hover {
-    opacity: 0.7; 
+    opacity: 70%; 
 }
 
 
@@ -214,7 +248,7 @@ footer a img:hover {
 
     #skillstab{
         background-color: #47BC78;
-        font-size: 30px;
+        font-size: 22px;
         padding-left: 60px;
         width: 60%; /* Limit width to 80% of the container */
         margin-left: 0px;
@@ -228,10 +262,10 @@ footer a img:hover {
         width: 80%; /* Adjust width for smaller screens */
         margin: 10px auto; /* Center align with auto margins */
         text-align: center; /* Center align text */
-        font-size: 20px;
+        font-size: 18px;
     }
     #BE,#FE, #AP{
-        font-size: 30px;
+        font-size: 25px;
         margin: 0;
     }
 
@@ -241,30 +275,66 @@ footer a img:hover {
     }
 
     
-.About #aboutitle {
-    font-size: 30px;
+.About #aboutitle{
+    font-size: 25px;
     margin-bottom: 0px;
+    text-align: center;
+}
+.About, #title{
+    font-size: 18px;
+    text-align: center;
 }
 
 
 .About .text{
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 70px;
+    text-align: center;
     flex-wrap: wrap;
 }
 
 #projecttab{
-    background-color: #47BC78;
-        font-size: 30px;
-        padding-left: 60px;
-        width: 60%; /* Limit width to 80% of the container */
-        margin-left: 0px;
+        font-size: 22px;
+        padding-left: 30px;
+        width: 80%; /* Limit width to 80% of the container */
+        margin-left: 0;
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
 }
+.Projects #projecttitle{
+    margin-left: 20px;
+  }
+  .Projects h3{
+      text-align: center;
+      margin-top: 20px; /* Add some top margin for spacing */
+  }
+  
+  .Projects{
+      font-size: 18px;
+      text-align:justify;
+      margin-bottom: 40px;
+  }
+  
+  .systemProject{
+      padding: 30px;
+     
+  }
+  .systemProject button{
+    display: block;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+      color: #1A202C;
+      border-radius: 10px;
+      border: #47BC78;
+      text-decoration: none; 
+      padding: 10px 20px; /* Adjust padding as needed */
+      font-size: 13px; 
+      
+  }
 
 footer{
-    padding: 20px;
+    padding: 0px;
     display: flex;
     background-color: #47BC78;
     justify-content: center;
