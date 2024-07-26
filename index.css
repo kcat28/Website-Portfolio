@@ -216,6 +216,11 @@ footer article p a{
     text-decoration: none;
 }
 
+footer article p a {
+    text-decoration: none;
+    color: #1A202C;
+}
+
 
 
 /* Media query for smaller screens */
