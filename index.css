@@ -3,6 +3,7 @@ body{
     margin: 0;
     background-color: #1A202C;
 }
+
 header{
     background-color: #1A202C;
     color: white;
@@ -51,7 +52,7 @@ header .topIcons a:hover{
     height: 200px;
     margin-left: 58px;
     flex-shrink: 0; /*Prevent the image from shrinking */
-    border: 1px solid #47BC78;
+    border: 1px solid #2E3748;
     border-radius: 5px;
 }
 
@@ -194,19 +195,27 @@ header .topIcons a:hover{
 
 
 footer{
-    padding: 20px;
-    display: flex;
     background-color: #47BC78;
-    justify-content: center;
 }
 
 footer img{
-    margin: 10px; 
+    margin: 5px; 
 }
 
 footer a img:hover {
     opacity: 70%; 
 }
+
+footer article{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+footer article p a{
+    text-decoration: none;
+}
+
 
 
 /* Media query for smaller screens */
@@ -327,13 +336,18 @@ footer a img:hover {
    
 }
 
-
-
 footer{
+    padding: 1px;
     padding: 0px;
-    display: flex;
     background-color: #47BC78;
+}
+footer article{
+    display: flex;
     justify-content: center;
 }
+footer article p a{
+    text-decoration: none;
+}
+
     
 }
