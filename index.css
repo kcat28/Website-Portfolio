@@ -6,7 +6,7 @@ body{
 
 header{
     background-color: #1A202C;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 25px;
     overflow: hidden;
 }
@@ -16,7 +16,7 @@ header{
 }
 .topIcons a{
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 18px;
 }
 
@@ -123,8 +123,10 @@ header .topIcons a:hover{
 }
 
 .techstack img {
-    height: 120px; 
-    margin: 10px; 
+    width: 130px; 
+    height: auto; 
+    object-fit: contain; 
+    flex-shrink: 0; 
 }
 
 .About {
@@ -192,6 +194,12 @@ header .topIcons a:hover{
 .systemProject button:hover{
     opacity: 80%;
 }
+
+.systemProject #buttonUpdate {
+    display: flex; /* Enables flexbox */
+    justify-content: center; /* Aligns button to the right */
+    width: 100%; /* Make sure it takes up the full width */
+  }
 
 
 footer{
@@ -279,10 +287,18 @@ footer article p a {
     }
 
     .techstack img {
-        height: 80px; /* Maintain aspect ratio */
-        margin: 10px; /* Adjust margin between images */
+        width:100px; /* Adjust the width as necessary */
+        height: auto; /* Maintain aspect ratio */
+        object-fit: contain; /* Ensure the icon fits within its container */
+        flex-shrink: 0; /* Prevent the icon from shrinking */
     }
 
+    .techstack {
+        display: flex;
+        flex-wrap: wrap; /* Allow wrapping of the icons */
+        justify-content: center; /* Optional: center the icons */
+    }
+    
     
     .About {
         background-color: #2E3748;
