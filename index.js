@@ -48,7 +48,7 @@ document.getElementById('buttonUpdate').addEventListener('click', () => {
     });
         buttonLink.href = project.githubLink;
         buttonLink.querySelector('button').textContent = 'View on Github';
-        buttonUpdate.textContent = currentPage === 0 ? ">" : "<";
+        buttonUpdate.textContent = currentPage === 0 ? "→" : "←";
     }
     currentPage = currentPage === 0 ? 1 : 0;
     updateProject();

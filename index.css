@@ -16,12 +16,12 @@ header{
 }
 .topIcons a{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: #47BC78;
     font-size: 18px;
 }
 
 header .topIcons a:hover{
-   color: #47BC78
+   color: white;
 }
 
 #catIcon{
@@ -123,7 +123,7 @@ header .topIcons a:hover{
 }
 
 .techstack img {
-    width: 130px; 
+    width: 120px; 
     height: auto; 
     object-fit: contain; 
     flex-shrink: 0; 
@@ -193,6 +193,7 @@ header .topIcons a:hover{
 }
 .systemProject button:hover{
     opacity: 80%;
+    color: white;
 }
 
 .systemProject #buttonUpdate {
