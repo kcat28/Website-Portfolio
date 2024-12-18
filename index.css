@@ -28,7 +28,6 @@ header .topIcons a:hover{
     height: 38px;
 }
 
-
 .intro{
     color: white;
     background-color: #2E3748;
@@ -45,6 +44,7 @@ header .topIcons a:hover{
 #compsci{
     margin-left: 68px;
     white-space: nowrap; /* Prevent the text from wrapping onto multiple lines */
+    margin-bottom: 4%;
 }
 
 .intro img{
@@ -127,6 +127,11 @@ header .topIcons a:hover{
     height: auto; 
     object-fit: contain; 
     flex-shrink: 0; 
+    transition: transform 0.1s ease, box-shadow 0.5s ease;
+}
+
+.techstack img:hover {
+    transform: scale(1.2); 
 }
 
 .About {
